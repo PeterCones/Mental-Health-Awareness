@@ -29,8 +29,10 @@
     ></script>
 
     <!-- Google Icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=sentiment_content" />
-
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=sentiment_content"
+    />
 
     <!-- CSS -->
     <link rel="stylesheet" href="css\styles.css" />
@@ -79,6 +81,7 @@
       </div>
     </nav>
     <main>
+      <!-- Hero -->
       <div class="hero m-5 p-5 rounded">
         <div class="container-fluid d-flex">
           <div class="d-flex flex-column">
@@ -96,12 +99,201 @@
             <div class="d-flex justify-content-end">
               <button class="btn btn-dark" type="button">
                 <div class="d-flex justify-content-evenly align-items-center">
-                <span class="material-symbols-outlined">
-                  sentiment_content
-                </span>
-                Find out more
+                  <span class="material-symbols-outlined">
+                    sentiment_content
+                  </span>
+                  Find out more
                 </div>
               </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cards Title -->
+      <div id="about" class="m-5 px-5 pt-5 rounded">
+        <div class="d-flex justify-content-center mb-4">
+          <h1>How Soulsteady can help</h1>
+        </div>
+      </div>
+
+      <!-- Cards Content -->
+      <div class="container-fluid">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="images\ram-dass.jpg" class="card-img-top" alt="..." />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Ram Dass</h5>
+                <p class="card-text">
+                  A spiritual teacher and psychologist who blended Eastern
+                  philosophy with Western consciousness exploration, best known
+                  for Be Here Now.
+                </p>
+                <div class="accordion" id="accordionRam">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseRam"
+                        aria-expanded="false"
+                        aria-controls="collapseRam"
+                      >
+                        Learn More
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseRam"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionRam"
+                    >
+                      <div class="accordion-body">
+                        <strong>Key Teachings:</strong> Dass invites you into
+                        the present moment with compassion and honesty. His
+                        teachings offer comfort in uncertainty, encouraging
+                        spiritual growth through love, service, and inner
+                        stillness.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img src="images\alan-watts.png" class="card-img-top" alt="..." />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Alan Watts</h5>
+                <p class="card-text">
+                  A British-American philosopher who popularized Eastern thought
+                  in the West, known for his articulate insights on Zen, Taoism,
+                  and the nature of reality.
+                </p>
+                <div class="accordion" id="accordionAlan">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseAlan"
+                        aria-expanded="false"
+                        aria-controls="collapseAlan"
+                      >
+                        Learn More
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseAlan"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionAlan"
+                    >
+                      <div class="accordion-body">
+                        <strong>Key Teachings:</strong> Watts dissolves the
+                        illusion of separation and control, reminding you to
+                        flow with life. He helps unravel existential confusion
+                        through humor, paradox, and poetic clarity.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="images\jack-kornfield.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Jack Kornfield</h5>
+                <p class="card-text">
+                  A psychologist and one of the key figures in bringing
+                  mindfulness and Buddhist teachings to the West, co-founder of
+                  the Insight Meditation Society.
+                </p>
+                <div class="accordion" id="accordionjack">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseJack"
+                        aria-expanded="false"
+                        aria-controls="collapseJack"
+                      >
+                        Learn More
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseJack"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionJack"
+                    >
+                      <div class="accordion-body">
+                        <strong>Key Teachings:</strong> Kornfield offers
+                        grounded, heart-centered wisdom. He helps integrate
+                        mindfulness into everyday life, with a focus on
+                        compassion, healing, and emotional resilience.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="card">
+              <img
+                src="images\eckhart-tolle.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Eckhart Tolle</h4>
+                <p class="card-text">
+                  A spiritual teacher and author of The Power of Now, whose work
+                  centers on presence, consciousness, and freedom from ego.
+                </p>
+                <div class="accordion" id="accordionEckhart">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseEckhart"
+                        aria-expanded="false"
+                        aria-controls="collapseEckhart"
+                      >
+                        Learn More
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseEckhart"
+                      class="accordion-collapse collapse"
+                      data-bs-parent="#accordionEckhart"
+                    >
+                      <div class="accordion-body">
+                        <strong>Key Teachings:</strong> Tolle emphasizes the
+                        importance of living in the present moment and
+                        recognizing the ego as a source of suffering. His
+                        teachings focus on awakening consciousness and finding
+                        inner peace through presence and mindfulness.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
