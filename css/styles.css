@@ -1,0 +1,47 @@
+
+
+
+
+
+/* Card */
+.card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Card images */
+.card > img {
+    height: 35rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  margin-bottom: 1rem;
+}
+
+.accordion{
+    margin-top: auto;
+}
+
+.accordion-body {
+    min-height: 128px;
+}
+
+/* Card media queries to assure consistency across resolutions */
+
+@media (min-width: 1024px) {
+  .card{
+    min-height:50rem;
+  }
+  }
+
+  @media (min-width: 1200px) and (max-width:1720px) {
+  .card{
+    min-height:53rem;
+  }
+  }
