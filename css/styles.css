@@ -152,8 +152,11 @@ body {
 /* Resources Styling */
 
 .card-r {
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
   background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .title-c {
@@ -171,15 +174,17 @@ body {
 }
 
 
-
-
 .title-e {
   padding-bottom: 0.5rem;
 }
 
+/* Add hover effect for hero, cards & resources */
 
-
-
+.hero:hover, .card:hover , .card-r:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
 
 
 /* Card media queries to assure consistency across resolutions (Cards) */
