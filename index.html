@@ -65,11 +65,11 @@
             </li>
 
             <li class="nav-item px-1">
-              <a class="nav-link" href="#">Who are we?</a>
+              <a class="nav-link" href="#about">Who are we?</a>
             </li>
 
             <li class="nav-item px-1">
-              <a class="nav-link" href="#">Quotes</a>
+              <a class="nav-link" href="#qoutes">Quotes</a>
             </li>
 
             <li class="nav-item px-1">
@@ -114,14 +114,14 @@
       </div>
 
       <!-- Cards Title -->
-      <div id="about" class="m-5 px-5 pt-5 rounded">
-        <div class="d-flex justify-content-center mb-4">
-          <h1>How Soulsteady can help</h1>
+      <div id="about" class="mt-5 mb-2 px-5 pt-5 rounded">
+        <div class="d-flex justify-content-center">
+          <h1>Who are We?</h1>
         </div>
       </div>
 
       <!-- Cards Content -->
-      <div class="container-fluid p-5">
+      <div class="container-fluid px-5">
         <div class="row g-4 flex-wrap">
           <div class="col-12 col-lg-6 col-xl-3">
             <div class="card">
@@ -300,6 +300,71 @@
             </div>
           </div>
         </div>
+      </div>
+      <!-- Qoutes Title -->
+      <div id="qoutes" class="mt-5 mb-2 px-5 pt-5 rounded">
+        <div class="d-flex justify-content-center">
+          <h1>Qoutes</h1>
+        </div>
+      </div>
+      <div
+        id="soulCarousel"
+        class="carousel slide carousel-fade px-5 pb-5"
+        data-bs-ride="carousel"
+      >
+        <div
+          class="carousel-inner rounded-4 shadow-lg"
+          
+        >
+          <div class="carousel-item active text-center p-5 text-white">
+            <h3 class="mb-3 fst-italic">
+              “We're all just walking each other home.”
+            </h3>
+            <p class="mb-0">— Ram Dass</p>
+          </div>
+
+          <div class="carousel-item text-center p-5 text-white">
+            <h3 class="mb-3 fst-italic">
+              “Trying to define yourself is like trying to bite your own teeth.”
+            </h3>
+            <p class="mb-0">— Alan Watts</p>
+          </div>
+
+          <div class="carousel-item text-center p-5 text-white">
+            <h3 class="mb-3 fst-italic">
+              “The things that matter most in our lives are not fantastic or
+              grand. They are the moments when we touch one another.”
+            </h3>
+            <p class="mb-0">— Jack Kornfield</p>
+          </div>
+
+          <div class="carousel-item text-center p-5 text-white">
+            <h3 class="mb-3 fst-italic">
+              “Realize deeply that the present moment is all you ever have.”
+            </h3>
+            <p class="mb-0">— Eckhart Tolle</p>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#soulCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#soulCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </main>
   </body>
