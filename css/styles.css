@@ -94,13 +94,14 @@ body {
   color: white;
 }
 
-/* Card images */
+/* Card Images */
 .card > img {
   height: 30rem;
   object-fit: cover;
   object-position: center;
 }
 
+/* Card Content */
 .card-title {
   margin-bottom: 1rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -147,6 +148,24 @@ body {
   font-weight: 500;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
+
+/* Resources Styling */
+
+.title-c {
+  color: white;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  
+}
+
+.text-c {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+
 
 
 .title-e {
