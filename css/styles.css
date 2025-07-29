@@ -158,9 +158,9 @@ body {
 
 /* Card media queries to assure consistency across resolutions */
 
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
   .card {
-    min-height: 44rem;
+    min-height: 46rem;
   }
 }
 
