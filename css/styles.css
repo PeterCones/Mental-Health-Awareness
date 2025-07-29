@@ -5,6 +5,12 @@
   font-size: 3rem;
 }
 
+.navbar-brand > span {
+  font-size: 3rem;
+  padding-right: 0.4rem;
+  font-weight: 500;
+}
+
 .nav-link {
   font-size: 2rem;
 }
