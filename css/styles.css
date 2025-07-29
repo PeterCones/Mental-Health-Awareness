@@ -215,3 +215,15 @@ body {
     padding-bottom: 2.625rem;
   }
 }
+
+@media (min-width: 1200px) and (max-width:1731px) {
+  .card-r {
+    min-height: 40rem;
+  }
+}
+
+@media (min-width: 2054px) {
+  .card-r {
+    min-height: 34rem;
+  }
+}
