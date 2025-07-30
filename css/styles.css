@@ -197,6 +197,24 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* Match form height with map height */
+form .btn {
+margin-top: 17.609px;
+color: white;
+font-size: 1.2rem;
+font-weight: 500;
+}
+
+form .btn:hover {
+color:#6a5acd;
+background-color: #1f1f1f;
+}
+
+/* Open times styling */
+
+
+
+
 /* Add hover effect for hero, cards & resources */
 
 .hero:hover, .card:hover , .card-r:hover {
