@@ -377,6 +377,8 @@
         id="soulCarousel"
         class="carousel slide carousel-fade p-3 px-sm-5 pb-sm-5"
         data-bs-ride="carousel"
+        role="region"
+        aria-label="Quotes carousel"
       >
         <div class="carousel-inner rounded-4 shadow-lg">
           <div class="carousel-item active text-center p-5 text-white">
@@ -442,7 +444,7 @@
           <!-- Ram Dass Excerpt -->
           <div class="col-12 col-md-6">
             <div class="p-4 rounded-4 shadow-lg tips">
-              <h4 class="tip-header">Struggling with Depression?</h4>
+              <h4 class="tip-header" role="region" aria-labelledby="tip-depression">Struggling with Depression?</h4>
               <h5 class="text-muted">Ram Dass on Self-Acceptance</h5>
               <blockquote class="blockquote fst-italic">
                 <p class="tip-quote">
@@ -466,7 +468,7 @@
           <!-- Alan Watts Excerpt -->
           <div class="col-12 col-md-6">
             <div class="p-4 rounded-4 shadow-lg tips">
-              <h4 class="tip-header">Feeling Anxious About Life?</h4>
+              <h4 class="tip-header" role="region" aria-labelledby="tip-anxiety">Feeling Anxious About Life?</h4>
               <h5 class="text-muted">Alan Watts on Surrender</h5>
               <blockquote class="blockquote fst-italic">
                 <p class="tip-quote">
@@ -488,7 +490,7 @@
           <!-- Jack Kornfield Excerpt -->
           <div class="col-12 col-md-6">
             <div class="p-4 rounded-4 shadow-lg tips">
-              <h4 class="tip-header">Navigating Grief or Heartbreak?</h4>
+              <h4 class="tip-header" role="region" aria-labelledby="tip-grief">Navigating Grief or Heartbreak?</h4>
               <h5 class="text-muted">Jack Kornfield on Compassion</h5>
               <blockquote class="blockquote fst-italic">
                 <p class="tip-quote">
@@ -508,7 +510,7 @@
           <!-- Eckhart Tolle Excerpt -->
           <div class="col-12 col-md-6">
             <div class="p-4 rounded-4 shadow-lg tips">
-              <h4 class="tip-header">Caught in Overthinking?</h4>
+              <h4 class="tip-header" role="region" aria-labelledby="tip-overthinking">Caught in Overthinking?</h4>
               <h5 class="text-muted">Eckhart Tolle on Presence</h5>
               <blockquote class="blockquote fst-italic">
                 <p class="tip-quote">“You are not your mind. You are the awareness behind it.”</p>
@@ -687,6 +689,7 @@
                     id="name"
                     class="form-control"
                     name="name"
+                    aria-required="true"
                     required
                   />
                 </div>
@@ -700,6 +703,7 @@
                     class="form-control"
                     name="email"
                     id="email"
+                    aria-required="true"
                     required
                   />
                 </div>
@@ -713,6 +717,7 @@
                     name="message"
                     id="message"
                     rows="4"
+                    aria-required="true"
                     required
                   ></textarea>
                 </div>
