@@ -49,7 +49,7 @@ body {
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
-  max-height: 85vh;
+  max-height: fit-content;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -289,7 +289,46 @@ footer a.active {
 
 }
 
-/* Media query for nav bar */
+/* Media query for extra small screens */
+
+@media (max-width:635px){
+.hero h1, #about h1, #quotes h1, #resources h1, #contact h1  {
+  font-size: 2rem;
+}
+
+.hero h1{
+padding-bottom: 1rem;
+}
+
+.hero .btn {
+font-size: 1.2rem;
+}
+
+td {
+  font-size: 1rem;
+}
+
+ .message {
+
+  justify-content: center;
+} 
+
+footer nav {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer a {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+}
+
+
+
+
+
 
 @media (max-width:1238px){
   .nav-link {
