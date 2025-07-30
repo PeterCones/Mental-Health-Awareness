@@ -244,7 +244,7 @@ footer p {
   font-style: italic;
 } 
 
-.message, nav {
+.message, footer nav {
   padding-bottom: 1rem;
 }
 
@@ -255,6 +255,7 @@ footer a {
   font-weight: 500;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
   transition: color 0.3s ease;
+  padding-inline: 1rem;
 }
 
 footer i {
