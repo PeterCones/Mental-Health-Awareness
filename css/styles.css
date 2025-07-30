@@ -231,6 +231,51 @@ td {
   padding-left: 1rem;
 }
 
+/* Footer */
+footer p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+}
+
+.message {
+  font-style: italic;
+} 
+
+.message, nav {
+  padding-bottom: 1rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  transition: color 0.3s ease;
+}
+
+footer i {
+  color: white;
+  font-size: 2.5rem;
+  padding-inline: 1rem;
+}
+
+footer i:hover {
+  color:#6a5acd;
+}
+
+
+footer a:hover {
+  color: #6a5acd !important;
+}
+
+footer a.active {
+  color: #6a5acd !important;
+  font-weight: 500;
+}
 
 /* Add hover effect for hero, cards & resources */
 
