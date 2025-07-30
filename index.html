@@ -14,6 +14,14 @@
       rel="stylesheet"
     />
 
+    <!-- Font Awesome -->
+
+    <script
+      defer
+      src="https://kit.fontawesome.com/bebd4357a9.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
@@ -479,7 +487,7 @@
       </div>
 
       <!-- Contact map -->
-      <div class="container-fluid px-5">
+      <div class="container-fluid px-5 mb-5">
         <div class="row g-4">
           <div class="col-12 col-lg-6 col-xl-4">
             <div class="p-3 rounded-4 shadow-lg get-container">
@@ -512,7 +520,11 @@
               <h3 class="d-flex justify-content-center get-title pb-2">
                 Message Us
               </h3>
-              <form class="d-flex flex-column" action="https://formspree.io/f/xkgzbero" method="POST">
+              <form
+                class="d-flex flex-column"
+                action="https://formspree.io/f/xkgzbero"
+                method="POST"
+              >
                 <div class="mb-3">
                   <label for="name" class="form-label text-light">Name</label>
                   <input
@@ -542,7 +554,9 @@
                     required
                   ></textarea>
                 </div>
-                <button type="submit" class="btn btn-dark px-4 ms-auto">Send</button>
+                <button type="submit" class="btn btn-dark px-4 ms-auto">
+                  Send
+                </button>
               </form>
             </div>
           </div>
@@ -554,43 +568,63 @@
                 Opening Times
               </h3>
               <table class="d-flex justify-content-center">
-                  <tr>
-                    <th>Day</th>
-                    <th>Times</th>
-                  </tr>
-                  <tr>
-                    <td>Monday</td>
-                    <td>09:00 - 17:00</td>
-                  </tr>
-                  <tr>
-                    <td>Tuesday</td>
-                    <td>09:00 - 17:00</td>
-                  </tr>
-                  <tr>
-                    <td>Wednesday</td>
-                    <td>09:00 - 17:00</td>
-                  </tr>
-                  <tr>
-                    <td>Thursday</td>
-                    <td>09:00 - 17:00</td>
-                  </tr>
-                  <tr>
-                    <td>Friday</td>
-                    <td>09:00 - 17:00</td>
-                  </tr>
-                  <tr>
-                    <td>Saturday</td>
-                    <td>10:00 - 16:30</td>
-                  </tr>
-                  <tr>
-                    <td>Sunday</td>
-                    <td>Closed</td>
-                  </tr>
+                <tr>
+                  <th>Day</th>
+                  <th>Times</th>
+                </tr>
+                <tr>
+                  <td>Monday</td>
+                  <td>09:00 - 17:00</td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>09:00 - 17:00</td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>09:00 - 17:00</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>09:00 - 17:00</td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>09:00 - 17:00</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>10:00 - 16:30</td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>Closed</td>
+                </tr>
               </table>
             </div>
           </div>
         </div>
       </div>
     </main>
+    <footer>
+      <div class="container-fluid d-flex flex-column align-items-center">
+        <p>
+          Promoting mental health awareness, support, and education for all.
+        </p>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#resources" >Resources</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="icon-wrapper d-flex">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-tiktok"></i>
+        </div>
+        <p>© 2025 Soulsteady. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
