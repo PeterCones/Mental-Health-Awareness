@@ -399,6 +399,29 @@ footer a.active {
   }
 }
 
+/* Tips media queries to assure consistency across resolutions */
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .tips {
+    min-height: 40rem;
+  }
+}
+
+@media (min-width: 1000px) and (max-width:1400px)  {
+  .tips {
+    min-height: 28rem;
+  }
+}
+
+@media (min-width: 1401px) {
+  .tips {
+    min-height: 21rem;
+  }
+}
+
+
+
+
 /* Card media queries to assure consistency across resolutions (Resources) */
 
 @media (min-width: 1200px) and (max-width: 1667px) {
