@@ -287,6 +287,20 @@ footer a.active {
 
 }
 
+/* Media query for nav bar */
+
+@media (max-width:1238px){
+  .nav-link {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width:991px){
+  .navbar-brand {
+    font-size: 2rem;
+  }
+} 
+
 
 /* Card media queries to assure consistency across resolutions (Cards) */
 
@@ -331,5 +345,13 @@ footer a.active {
 @media (min-width: 2054px) {
   .card-r {
     min-height: 34rem;
+  }
+}
+
+/* Media Query for footer */
+
+@media (max-width:553px) {
+  footer a{
+    font-size: 1rem;
   }
 }
