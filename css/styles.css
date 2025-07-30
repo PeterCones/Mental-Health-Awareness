@@ -178,6 +178,18 @@ body {
   padding-bottom: 0.5rem;
 }
 
+/* Contact Section */
+
+.get-container {
+  min-height: 100rem;
+}
+
+.get-title {
+  color: white;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
 /* Add hover effect for hero, cards & resources */
 
 .hero:hover, .card:hover , .card-r:hover {
