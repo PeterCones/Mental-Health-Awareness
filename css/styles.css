@@ -234,10 +234,11 @@ td {
 
 /* Add hover effect for hero, cards & resources */
 
-.hero:hover, .card:hover , .card-r:hover {
-  color: white;
-  font-weight: 500;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+.hero:hover, .card:hover , .card-r:hover, .get-container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+
 }
 
 
