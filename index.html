@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mental Health Awareness</title>
+    
+    <!-- Improve SEO -->
+    <meta name="description" content="Soulsteady supports your mental health journey with tips, affirmations, quotes, and resources inspired by spiritual teachers like Ram Dass, Alan Watts, and Eckhart Tolle.">
+    <meta name="keywords" content="mental health, mindfulness, depression help, anxiety support, affirmations, soulsteady, Ram Dass, Alan Watts, Eckhart Tolle, Jack Kornfield">
+
+    <!-- Title -->
+    <title>Soulsteady | Mental Health Awareness, Tips & Inspirational Quotes</title>
+
+    <!-- Favicon -->
+
+    <link rel="icon" href="images/favicon.png" type="image/png">
 
     <!-- Google fonts -->
 
@@ -80,7 +90,7 @@
               <a class="nav-link" href="#quotes">Quotes</a>
             </li>
             <li class="nav-item px-1">
-              <a class="nav-link" href="#tips">Tips</a>
+              <a class="nav-link" href="#tips_nav">Tips</a>
             </li>
             <li class="nav-item px-1">
               <a class="nav-link" href="#resources">Resources</a>
@@ -190,7 +200,7 @@
         <div class="row g-4 flex-wrap">
           <div class="col-12 col-lg-6 col-xl-3">
             <div class="card">
-              <img src="images\ram-dass.jpg" class="card-img-top" alt="..." />
+              <img src="images\ram-dass.jpg" class="card-img-top" alt="Image of Ram Dass" />
               <div class="card-body d-flex flex-column">
                 <h4 class="card-title">Ram Dass</h4>
                 <p class="card-text flex-grow-1">
@@ -233,7 +243,7 @@
 
           <div class="col-12 col-lg-6 col-xl-3">
             <div class="card">
-              <img src="images\alan-watts.png" class="card-img-top" alt="..." />
+              <img src="images\alan-watts.png" class="card-img-top" alt="Image of Alan Watts" />
               <div class="card-body d-flex flex-column">
                 <h4 class="card-title">Alan Watts</h4>
                 <p class="card-text flex-grow-1">
@@ -278,7 +288,7 @@
               <img
                 src="images\jack-kornfield.jpg"
                 class="card-img-top"
-                alt="..."
+                alt="Image of Jack Kornfield"
               />
               <div class="card-body d-flex flex-column">
                 <h4 class="card-title">Jack Kornfield</h4>
@@ -324,7 +334,7 @@
               <img
                 src="images\eckhart-tolle.png"
                 class="card-img-top"
-                alt="..."
+                alt="Image of Eckhart Tolle"
               />
               <div class="card-body d-flex flex-column">
                 <h4 class="card-title">Eckhart Tolle</h4>
@@ -377,6 +387,8 @@
         id="soulCarousel"
         class="carousel slide carousel-fade p-3 px-sm-5 pb-sm-5"
         data-bs-ride="carousel"
+        role="region"
+        aria-label="Quotes carousel"
       >
         <div class="carousel-inner rounded-4 shadow-lg">
           <div class="carousel-item active text-center p-5 text-white">
@@ -433,7 +445,7 @@
       <!-- Tips title -->
       <div id="quotes" class="mt-5 mb-2 px-5 pt-5 rounded">
         <div class="d-flex justify-content-center">
-          <h1 class="mb-3">Tips</h1>
+          <h1 class="mb-3" id="tips_nav">Tips</h1>
         </div>
       </div>
 
@@ -441,8 +453,8 @@
         <div class="row g-4">
           <!-- Ram Dass Excerpt -->
           <div class="col-12 col-md-6">
-            <div class="p-4 rounded-4 shadow-lg">
-              <h4 class="tip-header">Struggling with Depression?</h4>
+            <div class="p-4 rounded-4 shadow-lg tips">
+              <h4 class="tip-header" role="region" aria-labelledby="tip-depression">Struggling with Depression?</h4>
               <h5 class="text-muted">Ram Dass on Self-Acceptance</h5>
               <blockquote class="blockquote fst-italic">
                 <p class="tip-quote">
@@ -465,8 +477,8 @@
 
           <!-- Alan Watts Excerpt -->
           <div class="col-12 col-md-6">
-            <div class="p-4 rounded-4 shadow-lg">
-              <h4 class="tip-header">Feeling Anxious About Life?</h4>
+            <div class="p-4 rounded-4 shadow-lg tips">
+              <h4 class="tip-header" role="region" aria-labelledby="tip-anxiety">Feeling Anxious About Life?</h4>
               <h5 class="text-muted">Alan Watts on Surrender</h5>
               <blockquote class="blockquote fst-italic">
                 <p class="tip-quote">
@@ -487,8 +499,8 @@
 
           <!-- Jack Kornfield Excerpt -->
           <div class="col-12 col-md-6">
-            <div class="p-4 rounded-4 shadow-lg">
-              <h4 class="tip-header">Navigating Grief or Heartbreak?</h4>
+            <div class="p-4 rounded-4 shadow-lg tips">
+              <h4 class="tip-header" role="region" aria-labelledby="tip-grief">Navigating Grief or Heartbreak?</h4>
               <h5 class="text-muted">Jack Kornfield on Compassion</h5>
               <blockquote class="blockquote fst-italic">
                 <p class="tip-quote">
@@ -507,8 +519,8 @@
 
           <!-- Eckhart Tolle Excerpt -->
           <div class="col-12 col-md-6">
-            <div class="p-4 rounded-4 shadow-lg">
-              <h4 class="tip-header">Caught in Overthinking?</h4>
+            <div class="p-4 rounded-4 shadow-lg tips">
+              <h4 class="tip-header" role="region" aria-labelledby="tip-overthinking">Caught in Overthinking?</h4>
               <h5 class="text-muted">Eckhart Tolle on Presence</h5>
               <blockquote class="blockquote fst-italic">
                 <p class="tip-quote">“You are not your mind. You are the awareness behind it.”</p>
@@ -687,6 +699,7 @@
                     id="name"
                     class="form-control"
                     name="name"
+                    aria-required="true"
                     required
                   />
                 </div>
@@ -700,6 +713,7 @@
                     class="form-control"
                     name="email"
                     id="email"
+                    aria-required="true"
                     required
                   />
                 </div>
@@ -713,6 +727,7 @@
                     name="message"
                     id="message"
                     rows="4"
+                    aria-required="true"
                     required
                   ></textarea>
                 </div>
@@ -777,7 +792,7 @@
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#quotes">Quotes</a>
-          <a href="#tips">Tips</a>
+          <a href="#tips_nav">Tips</a>
           <a href="#resources">Resources</a>
           <a href="#contact">Get in Touch</a>
         </nav>

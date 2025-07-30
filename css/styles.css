@@ -310,7 +310,8 @@ footer a.active {
 .hero:hover,
 .card:hover,
 .card-r:hover,
-.get-container:hover {
+.get-container:hover,
+.tips:hover{
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
@@ -354,15 +355,13 @@ footer a.active {
   }
 }
 
-@media (max-width:1031px) {
-  .nav-link {
-    font-size: 1.2rem;
+@media (min-width:992px) and (max-width:1320px) {
+.nav-link {
+    font-size: 1.3rem;
   }
-}
 
-@media (min-width: 1032px) and (max-width:1238px) {
-  .nav-link {
-    font-size: 1.4rem;
+  .navbar-brand {
+    font-size: 2rem;
   }
 }
 
@@ -397,6 +396,29 @@ footer a.active {
     min-height: 46rem;
   }
 }
+
+/* Tips media queries to assure consistency across resolutions */
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .tips {
+    min-height: 40rem;
+  }
+}
+
+@media (min-width: 1000px) and (max-width:1400px)  {
+  .tips {
+    min-height: 28rem;
+  }
+}
+
+@media (min-width: 1401px) {
+  .tips {
+    min-height: 21rem;
+  }
+}
+
+
+
 
 /* Card media queries to assure consistency across resolutions (Resources) */
 
