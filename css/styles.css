@@ -181,7 +181,7 @@ body {
 /* Contact Section */
 
 .get-container {
-  min-height: 100rem;
+  min-height: 490px;
 }
 
 .get-title {
@@ -212,15 +212,32 @@ background-color: #1f1f1f;
 
 /* Open times styling */
 
+th {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  padding-right:2rem;
+  padding-left: 2rem;
+}
 
+td {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  padding-top: 1rem;
+  padding-right:1rem;
+  padding-left: 1rem;
+}
 
 
 /* Add hover effect for hero, cards & resources */
 
 .hero:hover, .card:hover , .card-r:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
+  color: white;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 
