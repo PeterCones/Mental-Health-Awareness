@@ -53,7 +53,7 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.hero h1, #about h1, #qoutes h1, #resources h1, #contact h1  {
+.hero h1, #about h1, #quotes h1, #resources h1, #contact h1  {
   font-size: 4rem;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -244,7 +244,7 @@ footer p {
   font-style: italic;
 } 
 
-.message, nav {
+.message, footer nav {
   padding-bottom: 1rem;
 }
 
@@ -255,6 +255,7 @@ footer a {
   font-weight: 500;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
   transition: color 0.3s ease;
+  padding-inline: 1rem;
 }
 
 footer i {
@@ -285,6 +286,20 @@ footer a.active {
   transition: all 0.3s ease;
 
 }
+
+/* Media query for nav bar */
+
+@media (max-width:1238px){
+  .nav-link {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width:991px){
+  .navbar-brand {
+    font-size: 2rem;
+  }
+} 
 
 
 /* Card media queries to assure consistency across resolutions (Cards) */
@@ -330,5 +345,13 @@ footer a.active {
 @media (min-width: 2054px) {
   .card-r {
     min-height: 34rem;
+  }
+}
+
+/* Media Query for footer */
+
+@media (max-width:553px) {
+  footer a{
+    font-size: 1rem;
   }
 }
