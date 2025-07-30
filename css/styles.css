@@ -153,6 +153,30 @@ body {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+/* Tips styling */
+
+.tip-header {
+  color:white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.text-muted {
+  color:white !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.tip-quote {
+  color:#FAF9F6;
+}
+
+.tip-text {
+  color:white !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+}
+
+
+
 /* Resources Styling */
 
 .card-r {
