@@ -52,7 +52,7 @@ body {
 
 /* Hero styling */
 .hero {
-  background-image: url("../images/hero_background.jpg");
+  background-image: url("../images/hero_background.webp");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
