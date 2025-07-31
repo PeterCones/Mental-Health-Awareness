@@ -305,6 +305,18 @@ footer a.active {
 
 /* Add hover effect for hero, cards & resources */
 
+
+
+/* Media query for extra small screens */
+
+@media (min-width:0px) and (max-width:576px) {
+  .hero {
+    background-image: url("../images/hero_background_mobile.jpg");
+  
+}
+}
+
+@media (min-wdith:1024px){
 .hero:hover,
 .card:hover,
 .card-r:hover,
@@ -313,14 +325,6 @@ footer a.active {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
-}
-
-/* Media query for extra small screens */
-
-@media (min-width:0px) and (max-width:576px) {
-  .hero {
-    background-image: none;
-  
 }
 }
 
