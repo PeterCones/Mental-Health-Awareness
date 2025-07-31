@@ -317,6 +317,14 @@ footer a.active {
 
 /* Media query for extra small screens */
 
+@media (min-width:0px) and (max-width:576px) {
+  .hero {
+    background-image: none;
+  
+}
+}
+
+
 @media (max-width: 635px) {
   .hero h1,
   #about h1,
