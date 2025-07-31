@@ -1,5 +1,7 @@
 # Mental Health Awareness
 ## An in individual capstone project
+<a href="https://petercones.github.io/Mental-Health-Awareness/">Click Here to view<a>
+
 <img width="1013" height="593" alt="image" src="https://github.com/user-attachments/assets/7893a476-8085-47c9-83e5-2dfaa9f0959d" />
 
 
@@ -169,6 +171,42 @@ AI also contributed to the design phase & idea gathering elements, helping point
 
 <img width="2527" height="381" alt="image" src="https://github.com/user-attachments/assets/1eed61d6-3801-4778-801f-eaa18701b1e8" />
 
+### Lighthouse testing
+
+## Desktop
+
+<img width="720" height="702" alt="image" src="https://github.com/user-attachments/assets/ae96cad1-59f3-44a8-a0de-15dfef5a0d18" />
+
+## Mobile
+
+<img width="717" height="652" alt="image" src="https://github.com/user-attachments/assets/18543bd6-7295-4111-8f9f-62b7e6e1d3d5" />
+
+# Note 
+I did try several different methods to better optamize the site mobile, however, I found that even with the following 
+
+- Adding several media queries for mobile
+- reducing image resolutions for mobile 
+- deferring all scripts
+- applying styles directly in HTML
+- Removing element transistions
+- Removing images entirely
+
+I just couldn't, in this timeframe score better.
+
+This is something I will reflect upon when developing further websites in the future.
+
+### Deployment
+
+I used GitHub Pages as a means to host this static site.
+
+To do this, I followed these steps:
+
+1. Selected the repository
+2. Navigated to settings
+<img width="1113" height="142" alt="image" src="https://github.com/user-attachments/assets/82711ed8-3971-4792-ac84-a94d861d0ab1" />
+3. Selected 'Pages'
+4. Then deployed using my main branch
+<img width="1411" height="687" alt="image" src="https://github.com/user-attachments/assets/27c6458e-993e-456b-b2a8-46566714c943" />
 
 
 
