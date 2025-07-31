@@ -15,6 +15,17 @@ During the design phase, I envisioned a site with a mystical and calming aesthet
 
 ---
 
+## Features
+
+- Dynamic Navbar
+- Hero with learn more pop-up modal
+- cards with learn more accordian
+- carousel with user controls
+- information section displaying tips
+- resources section featuring interactive audio elements
+- About us section featuring an interactive map, working message form & openening times
+- Dynamic footer with social media links & copyright mark 
+
 ## 🎨 Colour Palette
 
 | Name                    | Hex / RGBA Value          |
