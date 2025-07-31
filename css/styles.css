@@ -305,20 +305,17 @@ footer a.active {
 
 /* Add hover effect for hero, cards & resources */
 
-
-
 /* Media query for extra small screens */
 
-@media (min-width:0px) and (max-width:576px) {
+@media (min-width: 0px) and (max-width: 576px) and (min-height: 500px) {
   .hero {
     background-image: url("../images/hero_background_mobile.jpg");
-  
-}
+    margin-top: 5rem;
+  }
 
-#about {
-  margin-top: 7.8rem;
-}
-
+  #about {
+    margin-top: 7.8rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -382,6 +379,20 @@ footer a.active {
 @media (max-width: 991px) {
   .navbar-brand {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 320px) and (max-height: 500px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .hero {
+    margin-top: 1rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
   }
 }
 
