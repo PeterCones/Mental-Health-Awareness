@@ -1,3 +1,17 @@
+/* Main body styling */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(to right, #3a4d76, #6b5b95, #c288b6, #f5b1ab);
+  background-attachment: fixed;
+  font-family: "Lato", sans-serif;
+}
+
+
+
+
+
 /* Nav Styling */
 .navbar-brand {
   color: white !important;
@@ -35,19 +49,10 @@
   font-weight: 500;
 }
 
-/* Main body styling */
-body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-  background: linear-gradient(to right, #3a4d76, #6b5b95, #c288b6, #f5b1ab);
-  background-attachment: fixed;
-  font-family: "Lato", sans-serif;
-}
 
 /* Hero styling */
 .hero {
-  background-image: url("../images/hero_background.jpg");
+  background-image: url("../images/hero_background.webp");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
