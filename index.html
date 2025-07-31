@@ -47,7 +47,7 @@
     />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css\styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
@@ -63,7 +63,7 @@
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
-          aria-controls="navbarSupportedContent"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -115,17 +115,15 @@
 
             <div class="d-flex justify-content-end">
               <button
-                class="btn btn-dark"
+                class="btn btn-dark d-flex justify-content-evenly align-items-center"
                 type="button"
                 data-bs-toggle="modal"
                 data-bs-target="#intentModal"
               >
-                <div class="d-flex justify-content-evenly align-items-center">
-                  <span class="material-symbols-outlined">
-                    sentiment_content
-                  </span>
-                  Find out more
-                </div>
+                <span class="material-symbols-outlined">
+                  sentiment_content
+                </span>
+                Find out more
               </button>
             </div>
           </div>
@@ -195,7 +193,7 @@
           <div class="col-12 col-lg-6 col-xl-3">
             <div class="card">
               <img
-                src="images\ram-dass.webp"
+                src="images/ram-dass.webp"
                 class="card-img-top"
                 alt="Image of Ram Dass"
               />
@@ -242,7 +240,7 @@
           <div class="col-12 col-lg-6 col-xl-3">
             <div class="card">
               <img
-                src="images\alan-watts.webp"
+                src="images/alan-watts.webp"
                 class="card-img-top"
                 alt="Image of Alan Watts"
               />
@@ -288,7 +286,7 @@
           <div class="col-12 col-lg-6 col-xl-3">
             <div class="card">
               <img
-                src="images\jack-kornfield.jpg"
+                src="images/jack-kornfield.jpg"
                 class="card-img-top"
                 alt="Image of Jack Kornfield"
               />
@@ -334,7 +332,7 @@
           <div class="col-12 col-lg-6 col-xl-3">
             <div class="card">
               <img
-                src="images\eckhart-tolle.webp"
+                src="images/eckhart-tolle.webp"
                 class="card-img-top"
                 alt="Image of Eckhart Tolle"
               />
@@ -445,22 +443,18 @@
       </div>
 
       <!-- Tips title -->
-      <div id="quotes" class="mt-5 mb-2 px-5 pt-5 rounded">
+      <div id="tips" class="mt-5 mb-2 px-5 pt-5 rounded">
         <div class="d-flex justify-content-center">
           <h1 class="mb-3" id="tips_nav">Tips</h1>
         </div>
       </div>
 
-      <div class="container-fluid px-sm-5 pb-5" id="tips">
+      <div class="container-fluid px-sm-5 pb-5">
         <div class="row g-4">
           <!-- Ram Dass Excerpt -->
           <div class="col-12 col-md-6">
             <div class="p-4 rounded-4 shadow-lg tips">
-              <h5
-                class="tip-header h4"
-                role="region"
-                aria-labelledby="tip-depression"
-              >
+              <h5 class="tip-header h4" aria-label="tip-depression">
                 Struggling with Depression?
               </h5>
               <h4 class="text-muted h5">Ram Dass on Self-Acceptance</h4>
@@ -486,11 +480,7 @@
           <!-- Alan Watts Excerpt -->
           <div class="col-12 col-md-6">
             <div class="p-4 rounded-4 shadow-lg tips">
-              <h5
-                class="tip-header h4"
-                role="region"
-                aria-labelledby="tip-anxiety"
-              >
+              <h5 class="tip-header h4" aria-label="tip-anxiety">
                 Feeling Anxious About Life?
               </h5>
               <h4 class="text-muted h5">Alan Watts on Surrender</h4>
@@ -514,11 +504,7 @@
           <!-- Jack Kornfield Excerpt -->
           <div class="col-12 col-md-6">
             <div class="p-4 rounded-4 shadow-lg tips">
-              <h5
-                class="tip-header h4"
-                role="region"
-                aria-labelledby="tip-grief"
-              >
+              <h5 class="tip-header h4" aria-label="tip-grief">
                 Navigating Grief or Heartbreak?
               </h5>
               <h4 class="text-muted h5">Jack Kornfield on Compassion</h4>
@@ -540,11 +526,7 @@
           <!-- Eckhart Tolle Excerpt -->
           <div class="col-12 col-md-6">
             <div class="p-4 rounded-4 shadow-lg tips">
-              <h5
-                class="tip-header h4"
-                role="region"
-                aria-labelledby="tip-overthinking"
-              >
+              <h5 class="tip-header h4" aria-label="tip-overthinking">
                 Caught in Overthinking?
               </h5>
               <h4 class="text-muted h5">Eckhart Tolle on Presence</h4>
@@ -584,9 +566,7 @@
                 data-testid="embed-iframe"
                 style="border-radius: 12px"
                 src="https://open.spotify.com/embed/episode/7xxw2bqcLrLZc5rHG1anwt?utm_source=generator&theme=0"
-                width="100%"
                 height="352"
-                frameborder="0"
                 allowfullscreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
@@ -608,9 +588,7 @@
                 data-testid="embed-iframe"
                 style="border-radius: 12px"
                 src="https://open.spotify.com/embed/track/2DbzxHuEBPNNPNJ297kPj2?utm_source=generator&theme=0"
-                width="100%"
                 height="352"
-                frameborder="0"
                 allowfullscreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
@@ -633,9 +611,7 @@
                 title="Jack Kornfield audio excerpt"
                 data-testid="embed-iframe"
                 src="https://open.spotify.com/embed/episode/32gEpfBdkFx760AtgbEkPg?utm_source=generator&theme=0"
-                width="100%"
                 height="352"
-                frameborder="0"
                 allowfullscreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
@@ -659,9 +635,7 @@
                 data-testid="embed-iframe"
                 style="border-radius: 12px"
                 src="https://open.spotify.com/embed/track/2teFtIMBXCupmvfqbYa3vE?utm_source=generator&theme=0"
-                width="100%"
                 height="352"
-                frameborder="0"
                 allowfullscreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
@@ -695,20 +669,13 @@
               <div class="rounded-4 overflow-hidden">
                 <div>
                   <iframe
+                    id="map"
                     title="Map detailing our location"
                     loading="lazy"
-                    width="100%"
                     height="400"
-                    frameborder="0"
-                    scrolling="no"
-                    marginheight="0"
-                    marginwidth="0"
                     src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=10%20downing%20street+(Soulsteady)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                    ><a
-                      href="https://www.mapsdirections.info/fr/calculer-la-population-sur-une-carte"
-                      >Estimer la population sur la carte</a
-                    ></iframe
                   >
+                  </iframe>
                 </div>
               </div>
             </div>
