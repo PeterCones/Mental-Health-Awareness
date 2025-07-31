@@ -1,6 +1,6 @@
 # Mental Health Awareness
 ## An in individual capstone project
-<a href="https://petercones.github.io/Mental-Health-Awareness/">Click Here to view<a>
+<a href="https://petercones.github.io/Mental-Health-Awareness/" target="_blank">Click Here to view<a>
 
 <img width="1013" height="593" alt="image" src="https://github.com/user-attachments/assets/7893a476-8085-47c9-83e5-2dfaa9f0959d" />
 
