@@ -374,7 +374,7 @@ footer a.active {
   }
 
   .message {
-    justify-content: center;
+    text-align: center;
   }
 
   footer nav {
@@ -386,6 +386,11 @@ footer a.active {
     padding: 0.5rem;
     font-size: 1rem;
   }
+
+  #footer-icon i {
+    padding-inline:  0.1rem;
+  }
+
 }
 
 @media (min-width: 992px) and (max-width: 1320px) {
