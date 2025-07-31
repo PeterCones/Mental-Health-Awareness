@@ -8,10 +8,6 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-
-
-
-
 /* Nav Styling */
 .navbar-brand {
   color: white !important;
@@ -48,7 +44,6 @@ body {
   color: #00c2b2 !important;
   font-weight: 500;
 }
-
 
 /* Hero styling */
 .hero {
@@ -161,26 +156,24 @@ body {
 /* Tips styling */
 
 .tip-header {
-  color:white;
+  color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .text-muted {
-  color:white !important;
+  color: white !important;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 .tip-quote {
-  color:#FAF9F6;
+  color: #faf9f6;
 }
 
 .tip-text {
-  color:white !important;
+  color: white !important;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
   font-weight: 500;
 }
-
-
 
 /* Resources Styling */
 
@@ -316,13 +309,21 @@ footer a.active {
 .card:hover,
 .card-r:hover,
 .get-container:hover,
-.tips:hover{
+.tips:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 }
 
 /* Media query for extra small screens */
+
+@media (min-width:0px) and (max-width:576px) {
+  .hero {
+    background-image: none;
+  
+}
+}
+
 
 @media (max-width: 635px) {
   .hero h1,
@@ -360,8 +361,8 @@ footer a.active {
   }
 }
 
-@media (min-width:992px) and (max-width:1320px) {
-.nav-link {
+@media (min-width: 992px) and (max-width: 1320px) {
+  .nav-link {
     font-size: 1.3rem;
   }
 
@@ -410,7 +411,7 @@ footer a.active {
   }
 }
 
-@media (min-width: 1000px) and (max-width:1400px)  {
+@media (min-width: 1000px) and (max-width: 1400px) {
   .tips {
     min-height: 28rem;
   }
@@ -421,9 +422,6 @@ footer a.active {
     min-height: 21rem;
   }
 }
-
-
-
 
 /* Card media queries to assure consistency across resolutions (Resources) */
 
