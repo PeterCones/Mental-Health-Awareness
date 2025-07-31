@@ -314,6 +314,11 @@ footer a.active {
     background-image: url("../images/hero_background_mobile.jpg");
   
 }
+
+#about {
+  margin-top: 7.8rem;
+}
+
 }
 
 @media (min-width: 1024px) {
